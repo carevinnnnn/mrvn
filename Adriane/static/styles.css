@@ -1,0 +1,167 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #585123, #F58549); /* Gradient Background */
+    color: #EEC170; /* Warm Yellow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+/* Header and Titles */
+h2, h3 {
+    color: #F2A65A; /* Peach Orange */
+    margin: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 6px #772F1A; /* Mahogany Shadow */
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Forms */
+form {
+    background: #772F1A; /* Mahogany */
+    border: 2px solid #F2A65A; /* Peach Orange */
+    border-radius: 15px;
+    padding: 25px;
+    width: 350px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #EEC170; /* Warm Yellow */
+    border-radius: 8px;
+    background: #ffffff;
+    color: #772F1A; /* Mahogany */
+}
+
+input:focus {
+    border-color: #F58549; /* Burnt Orange */
+    outline: none;
+}
+
+button {
+    background: #F58549; /* Burnt Orange */
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #F2A65A; /* Peach Orange */
+    transform: scale(1.05);
+}
+
+/* Logout Button */
+.logout-btn {
+    background: #585123; /* Dark Olive */
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logout-btn:hover {
+    background: #EEC170; /* Warm Yellow */
+    transform: scale(1.1);
+}
+
+/* Links */
+a {
+    color: #F2A65A; /* Peach Orange */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #772F1A; /* Mahogany */
+    text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    background: #772F1A; /* Mahogany */
+    color: #EEC170; /* Warm Yellow */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #F2A65A; /* Peach Orange */
+}
+
+table th {
+    background: #585123; /* Dark Olive */
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background: #F58549; /* Burnt Orange */
+}
+
+table tr:hover {
+    background: #EEC170; /* Warm Yellow */
+    color: #772F1A; /* Mahogany */
+    transition: 0.2s ease;
+}
+
+/* Buttons in Table */
+.action-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    background: #F2A65A; /* Peach Orange */
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.3s ease;
+}
+
+.action-btn:hover {
+    background: #F58549; /* Burnt Orange */
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    background: #585123; /* Dark Olive */
+    color: #EEC170; /* Warm Yellow */
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.2);
+}
